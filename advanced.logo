@@ -1,0 +1,31 @@
+{-
+Testowy komentarz blokowy
+-}
+
+oto pw :kąt pierwotna
+oto np :krok pierwotna
+
+operator lewostronny + 4 :l :r pierwotna
+operator lewostronny - 4 :l :r pierwotna
+
+operator lewostronny * 3 :l :r pierwotna
+operator lewostronny / 3 :l :r pierwotna
+operator lewostronny % 3 :l :r pierwotna
+
+operator lewostronny >  6 :l :r pierwotna
+operator lewostronny >= 6 :l :r pierwotna
+
+operator lewostronny <  6 :l :r pierwotna
+operator lewostronny <= 6 :l :r pierwotna
+
+oto bok {
+  -2 * -2 * 25
+}
+
+iteruj :j = 0 warunek :j < 5 przez :j = :j + 1 {
+  iteruj :i = 0 warunek :i < 5 przez :i = :i + 1 {
+    np 100
+    pw 72
+  }
+  pw 72
+}
